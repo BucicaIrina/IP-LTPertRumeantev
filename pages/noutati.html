@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Новости </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../images/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="../js/lightbox.js"></script>
+</head>
+
+<body>
+    <div id="menu-btn" onclick="menu()">
+        <i id="hamburger" class="fas fa-bars"></i>
+        <i id="close" class="fas fa-times hidden"></i>
+    </div>
+
+    <navbar id="side-menu">
+        <div id="menu-logo">
+            <i class="fas fa-graduation-cap"></i>
+        </div>
+        <a href="../index.html#despre" onclick="menu()">О нас</a>
+        <a href="../index.html#merite" onclick="menu()">Наши достижения</a>
+        <a href="../index.html#galerie" onclick="menu()">Галерея</a>
+        <a href="../index.html#orar" onclick="menu()">Расписание</a>
+        <a href="../index.html#contacte" onclick="menu()">Контакты</a>
+        <a href="acte.html" onclick="menu()">Нормативные документы</a>
+        <a href="noutati.html" onclick="menu()">Новости</a>
+    </navbar>
+
+    <main id="main">
+        <section id="noutati">
+            <h1 class="centered">Новости</h1>
+
+            <a href="../index.html" class="link-home">
+                <i class="fas fa-arrow-left"></i>
+                Главная страница
+            </a>
+
+            <div class="noutate">
+                <div class="noutate-data">Добавлен 24-05-2021</div>
+                <img src="../images/s1200.jpg">
+                <h3>Сокращение уроков</h3>
+                <p>
+                    28 мая 2021 года будут сокращенные уроки в лицее. 
+                    Следите за графиком звонков.
+                    График будет вывесен в холе учебного заведения.
+                </p>
+            </div>
+
+            <div class="noutate">
+                <div class="noutate-data">Добавлен 20-05-2021</div>
+                <img src="../images/image.jpg">
+                <h3>Консультации</h3>
+                <p>
+                   В период с 24-05-2021 по 31-05-2021 будут проводиться консультации по экзаменационным предметам. 
+                   Консультации будут проводиться согласно расписанию. Явка всех учащихся 9 и 12 классов обязательна. 
+                </p>
+            </div>
+
+            <div class="noutate">
+                <div class="noutate-data">Добавлен 27-05-2021</div>
+                <img src="../images/unnamed.jpg">
+                <h3>Последний звонок</h3>
+                <p>
+                  31 мая в нашем лицее состоиться торжественная линейка посвященная празднику "Последний звонок".
+                  Будем рады видеть всех на нашем празднике. 
+                </br> Линейка пройдет согласна требованиям, с соблюдением карантинных мер. При себе иметь защитные маски.
+                </p>
+            </div>
+
+
+
+        </section>
+        <footer>
+            <div class="titlu-footer">
+                ПУ ТЛ.им.Петра Румянцева
+            </div>
+            <div class="centered">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="../images/fb.png" />
+                </a>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
